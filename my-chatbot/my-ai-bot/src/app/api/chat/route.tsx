@@ -1,14 +1,13 @@
 import OpenAI from "openai";
 import { OpenAIStream, StreamingTextResponse } from "ai";
 
-// Create an OpenAI API client (that's edge friendly!)
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
 export const dynamic = "force-dynamic";
 
-export async function POST(req) {
+export async function POST(req: Request) {
   const { messages } = await req.json();
 
   // Ask OpenAI for a streaming chat completion given the prompt

@@ -9,7 +9,7 @@ export default function Chat() {
       <h1 className="title">GabyGPT</h1>
       <div className="chatbot">
         {messages.map((message) => (
-          <div key={message.id} className="chatHistory">
+          <div key={message.id} className={`chatHistory ${message.role === "user" ? "userMessage" : "aiMessage"}`}>
             {/* {message.role === "user" ? "User: " : "AI: "} */}
             {message.content}
           </div>
