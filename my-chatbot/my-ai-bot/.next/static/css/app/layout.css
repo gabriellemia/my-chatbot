@@ -70,5 +70,82 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/app/globals.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************/
+div.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 100vh;
+}
 
+h1.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 40px;
+  background: linear-gradient(to right, #fff6a8, #b9fece, #8cf2fd, #56fbd7);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+div.chatbot {
+  text-align: center;
+  width: 80%;
+}
+
+div.chatHistory.userMessage {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #fff9bf;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 50px 10px 10px;
+}
+
+div.chatHistory.aiMessage {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #b9defe;
+  color: black;
+  border-radius: 5px;
+  margin: 10px 10px 10px 50px;
+  padding: 10px;
+}
+
+div.content {
+  text-align: left;
+}
+
+form.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  height: 20px;
+}
+
+button {
+  background: none;
+  border: none;
+  margin-right: -50px;
+}
+
+img.send {
+  width: 40px;
+  height: auto;
+}
 
