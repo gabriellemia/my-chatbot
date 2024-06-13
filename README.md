@@ -27,7 +27,9 @@ https://github.com/gabriellemia/my-chatbot/assets/78322726/5e711d1d-79f2-4c4e-a8
 ## Tech stack
 
 Next.js
+
 vercel SDK
+
 OpenAI api
 
 
