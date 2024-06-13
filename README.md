@@ -2,6 +2,10 @@
 
 Create a basic chatbot using the openAI api.  Ask the bot anything and get an AI response back.  
 
+### Why?
+
+During our Data and AI experience week at the School of Code, I did a bit of research into using LLM's and AI chatbots.  I wanted to see if I could create my own simple one.  Once I understand the way they are built I would like to experiment with integrating them into bigger projects eventually.
+
 ### Model
 
 gpt-3.5-turbo
